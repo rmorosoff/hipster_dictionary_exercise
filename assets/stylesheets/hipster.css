@@ -20,6 +20,11 @@ body {
   position: fixed;
 }
 
+.masthead a {
+	color: white;
+	text-decoration: none;
+}
+
 .masthead ul {
   margin: 0;
   padding: 0;
