@@ -1,7 +1,4 @@
-html, body, div, ul, li {
-	margin: 0;
-	padding: 0;
-}
+
 
 body {
 	margin: 0;
@@ -38,7 +35,7 @@ body {
   width: 100%;
   display: inline;
   font-size: 1.2em;
-  padding: 0px 8px;
+  padding: 0px 10px;
 }
 
 .robins {
@@ -70,7 +67,18 @@ section {
 	font: Helvetica, sans-serif;
 	padding-top: 40px;
 	padding-bottom: 60px;
-	max-width: 100%;
+	max-width: 25%;
+	float: left;
+}
+
+section p {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 1em;
+  letter-spacing: 0.15em;
+	text-align: left;
+	margin: 0 20px;
+	height: 50px;
 }
 
 .main-image {
@@ -81,7 +89,7 @@ section {
 	margin-bottom: -15px;
 }
 
-h1 {
+section h1 {
 	font-family: 'Lato', sans-serif;
 	color: white;
 	font-size: 1.25em;
@@ -91,7 +99,7 @@ h1 {
 }
 
 
-h2 {
+section h2 {
 	font-family: 'Lato', sans-serif;
 	color: white;
   letter-spacing: 0.25em;
@@ -114,14 +122,12 @@ h2 {
 		border-left: 2px solid white;
 }
 
-section p {
-	font-family: 'Lato', sans-serif;
-	color: white;
-	font-size: 1em;
-  letter-spacing: 0.15em;
-	text-align: left;
-	margin: 0 20px;
-	height: 50px;
+.logo {
+	margin: 150px auto 0 auto;
+	overflow: visible;
+	width: 200%;
+	text-align: center;
+	display: inline-block;
 }
 
 .logo img{
@@ -138,16 +144,3 @@ footer {
 	clear: both;
   line-height: 60px;
 }
-
-	section {
-		max-width: 25%;
-		float: left;
-	}
-
-	.logo {
-		margin: 150px auto 0 auto;
-		overflow: visible;
-		width: 200%;
-		text-align: center;
-		display: inline-block;
-	}
